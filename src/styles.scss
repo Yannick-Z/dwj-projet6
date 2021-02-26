@@ -1,14 +1,83 @@
-@import url('https://fonts.googleapis.com/css?family=Mali:700|Source+Sans+Pro');
-
-body {
-  font-family: "Source Sans Pro", sans-serif ;
-  letter-spacing: 0.1em;
-  margin: 0;
-  white-space: pre-line;
-}
-
-html, body { height: 100%; }
-
-mat-spinner {
-  margin: auto;
-}
+    @import url('https://fonts.googleapis.com/css?family=Mali:700|Source+Sans+Pro');
+    body {
+        font-family: "Source Sans Pro", sans-serif;
+        letter-spacing: 0.1em;
+        margin: 0;
+        white-space: pre-line;
+    }
+    
+    html,
+    body {
+        height: 100%;
+    }
+    
+    mat-spinner {
+        margin: auto;
+    }
+    
+    ul {
+        display: grid !important;
+    }
+    
+    @media only screen and (max-width: 1100px) {
+        nav {
+            font-size: 15px;
+        }
+        .logo {
+            font-size: 10px;
+        }
+    }
+    
+    @media only screen and (max-width:900px) {
+        nav {
+            font-size: 15px;
+        }
+    }
+    
+    @media only screen and (max-width:750px) {
+        nav {
+            font-size: 10px;
+        }
+        .logo {
+            font-size: 10px;
+        }
+    }
+    
+    @media only screen and (max-width:700px) {
+        .sauce-list {
+            display: grid!important
+        }
+        .sauce-list-item {
+            margin: 40px!important
+        }
+    }
+    
+    @media only screen and (max-width:600px) {
+        nav {
+            font-size: 10px;
+        }
+    }
+    
+    @media only screen and (max-width:500px) {
+        .sauce-container {
+            display: flow-root!important
+        }
+    }
+    
+    @media only screen and (max-width:350px) {
+        .sauce-container[_ngcontent-c6] img[_ngcontent-c6] {
+            max-height: 45vh!important
+        }
+        ul[_ngcontent-c1] {
+            margin: -17px!important
+        }
+    }
+    
+    @media only screen and (max-width:300px) {
+        .logo {
+            font-size: 7px;
+        }
+        ul {
+            font-size: 7px;
+        }
+    }
